@@ -1,0 +1,462 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "8a9406d0-ca77-4fc5-9ddc-9a7427d3685e")
+	(paper "A3")
+	(title_block
+		(title "Output selector")
+		(company "${COMPANY}")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 142.24 122.555)
+		(end 227.33 202.565)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2737cd37-a470-40bf-a194-d66191b49060)
+	)
+	(rectangle
+		(start 232.41 183.515)
+		(end 314.96 202.565)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3d09b884-e57e-48ce-91b4-74c4e072014b)
+	)
+	(rectangle
+		(start 320.04 36.195)
+		(end 375.92 236.855)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 46094766-ad6d-49f2-8b9b-b7927db9f703)
+	)
+	(rectangle
+		(start 232.41 207.645)
+		(end 314.96 236.855)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5c9c8f0a-622b-40b6-a697-6d48779e87a7)
+	)
+	(rectangle
+		(start 48.26 207.645)
+		(end 137.16 236.855)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 615a8170-3541-47ee-b95f-f7da14e260f2)
+	)
+	(rectangle
+		(start 232.41 122.555)
+		(end 314.96 178.435)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8c9a67ba-5358-4593-9724-d5476056d203)
+	)
+	(rectangle
+		(start 48.26 36.195)
+		(end 137.16 164.465)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9ed0677c-7fb9-4787-a360-f9e01ef16742)
+	)
+	(rectangle
+		(start 142.24 207.645)
+		(end 227.33 236.855)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid afad06dc-bfe6-4fb8-990b-400a0584c4c0)
+	)
+	(rectangle
+		(start 48.26 169.545)
+		(end 137.16 202.565)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid dc3e6752-f641-41bb-b652-5fc5076d6341)
+	)
+	(rectangle
+		(start 142.24 36.195)
+		(end 314.96 117.475)
+		(stroke
+			(width 1)
+			(type default)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f2491e47-d8c6-47f1-a186-651aac5b9e1b)
+	)
+	(text_box "DESIGN NOTE:\nblabla"
+		(exclude_from_sim no)
+		(at 80.01 140.335 0)
+		(size 21.59 15.24)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 255 165 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "0aa389c9-96e6-4913-93e9-6f862c912ba5")
+	)
+	(text_box "Block Description"
+		(exclude_from_sim no)
+		(at 144.78 106.045 0)
+		(size 167.64 9.525)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "1e20fd10-78cf-4c49-90ee-e0301531e1fe")
+	)
+	(text_box "Block Description"
+		(exclude_from_sim no)
+		(at 143.51 225.425 0)
+		(size 82.55 9.525)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "1e3a8185-f683-4414-a9f5-7db7f93d4e7a")
+	)
+	(text_box "Block Description"
+		(exclude_from_sim no)
+		(at 49.53 191.135 0)
+		(size 86.36 9.525)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "2e7516aa-8277-4e2c-b507-a90c9c361dbe")
+	)
+	(text_box "DESIGN NOTE:\nblabla"
+		(exclude_from_sim no)
+		(at 55.88 140.335 0)
+		(size 21.59 15.24)
+		(stroke
+			(width 0.8)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "4b50d5c1-4c1f-47a0-ad7d-f1d463aa0368")
+	)
+	(text_box "Block Description"
+		(exclude_from_sim no)
+		(at 321.31 225.425 0)
+		(size 53.34 9.525)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "5564e577-830c-4984-9203-e59a1fbca9c7")
+	)
+	(text_box "[${#}] ${TITLE}"
+		(exclude_from_sim no)
+		(at 12.065 17.145 0)
+		(size 395.605 12.7)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 8 8)
+				(thickness 1.2)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+		)
+		(uuid "57936091-948d-4fea-a255-23b9f59caafe")
+	)
+	(text_box "Block Description"
+		(exclude_from_sim no)
+		(at 49.53 225.425 0)
+		(size 86.36 9.525)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "9d92cf4f-651b-41eb-bc68-35c104bd1c88")
+	)
+	(text_box "Block Description"
+		(exclude_from_sim no)
+		(at 49.53 153.035 0)
+		(size 86.36 9.525)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "ba24a035-1fa8-4854-a69b-6dc627fed1a1")
+	)
+	(text_box "Block Description"
+		(exclude_from_sim no)
+		(at 143.51 191.135 0)
+		(size 82.55 9.525)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "c08419df-21b9-485d-944e-d3d50488cad9")
+	)
+	(text_box "Block Description"
+		(exclude_from_sim no)
+		(at 234.315 167.64 0)
+		(size 78.74 9.525)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "cc2d4363-2b28-4952-908d-1fc984c03189")
+	)
+	(text_box "Block Description"
+		(exclude_from_sim no)
+		(at 233.68 191.135 0)
+		(size 80.01 9.525)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "f0ea9196-1621-4f38-88ab-a38618d083e2")
+	)
+	(text_box "Block Description"
+		(exclude_from_sim no)
+		(at 233.68 225.425 0)
+		(size 80.01 9.525)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "f2ee0c4a-198f-4541-9afe-8ae42414153c")
+	)
+	(text_box "LAYOUT NOTE:\nblabla"
+		(exclude_from_sim no)
+		(at 104.14 140.335 0)
+		(size 26.67 15.24)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(thickness 0.4)
+				(bold yes)
+				(color 0 0 255 1)
+			)
+			(justify left top)
+		)
+		(uuid "fcf41fea-5ded-4954-8c11-5df1d342ccc7")
+	)
+)
