@@ -184,15 +184,14 @@
 			(outputdirectory "Manufacturing/Fabrication/Gerbers/")
 		)
 	)
-	(property "BOARD_NAME" "Λmulet Motion Controller")
-	(property "COMPANY" "EPFL Xplore Research")
-	(property "DESIGNER" "Vincent Nguyen")
-	(property "DOC_TYPE" "Assembly")
-	(property "PROJECT_NAME" "Chienpanzé")
-	(property "RELEASE_DATE" "13-APR-2024")
+	(property "BOARD_NAME" "Audio Interface")
+	(property "COMPANY" "")
+	(property "DESIGNER" "LE NINIVEN Thomas")
+	(property "PROJECT_NAME" "Audio Interface")
+	(property "RELEASE_DATE" "")
 	(property "REVIEWER" "")
-	(property "REVISION" "1.1")
-	(property "VARIANT" "Released")
+	(property "REVISION" "1")
+	(property "VARIANT" "Draft")
 	(net 0 "")
 	(gr_rect
 		(start 113.5 46.5)
@@ -12673,7 +12672,7 @@
 		)
 		(height -41)
 		(orientation 1)
-		(gr_text "35.00"
+		(gr_text "35,00"
 			(at 106.35 107.5 90)
 			(layer "User.8")
 			(uuid "6c571d1b-0ff3-4bc0-8284-c76f6b661058")
@@ -12707,7 +12706,7 @@
 		)
 		(height 5.5)
 		(orientation 0)
-		(gr_text "35.00"
+		(gr_text "35,00"
 			(at 131 129.35 0)
 			(layer "User.8")
 			(uuid "843235eb-3585-4a4c-b10d-86b766ed1b7d")
@@ -12741,7 +12740,7 @@
 		)
 		(height 5.5)
 		(orientation 0)
-		(gr_text "35.00"
+		(gr_text "35,00"
 			(at 131 129.35 0)
 			(layer "User.9")
 			(uuid "5001d6b6-ffa7-4d67-8e7a-20a7807d274d")
@@ -12776,7 +12775,7 @@
 		)
 		(height -41)
 		(orientation 1)
-		(gr_text "35.00"
+		(gr_text "35,00"
 			(at 106.35 107.5 90)
 			(layer "User.9")
 			(uuid "9154b74d-9822-4f4d-9383-8ce6a573aa4a")

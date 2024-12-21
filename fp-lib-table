@@ -1,4 +1,5 @@
 (fp_lib_table
   (version 7)
   (lib (name "ets")(type "KiCad")(uri "C:/Users/thomas/Documents/KiCad/easyeda2kicad/easyeda2kicad.pretty")(options "")(descr ""))
+  (lib (name "0__")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/AudioInterface.pretty")(options "")(descr ""))
 )
