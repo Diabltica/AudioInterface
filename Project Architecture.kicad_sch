@@ -529,6 +529,16 @@
 			)
 			(uuid "4bb979fb-cc48-4adc-8cf1-25021791227d")
 		)
+		(pin "+5 V" passive
+			(at 237.49 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3d620436-ea5f-4e9b-912e-a78863bd9586")
+		)
 		(instances
 			(project "AudioInterface"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
