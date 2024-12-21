@@ -429,6 +429,46 @@
 				(justify left top)
 			)
 		)
+		(pin "To_Amplifier_R" output
+			(at 237.49 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a5df5d87-050f-4c96-9f92-7d51f4a76b17")
+		)
+		(pin "To_Amplifier_L" output
+			(at 237.49 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6bf646f7-f853-4f2a-aab2-6bb84e1b68b8")
+		)
+		(pin "+5V" passive
+			(at 237.49 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "24590b4c-7269-4693-8e4e-43234fccf3b3")
+		)
+		(pin "GND" passive
+			(at 237.49 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "08499b3b-f875-40b0-bfa3-dfcc4bc33943")
+		)
 		(instances
 			(project "AudioInterface"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
@@ -470,7 +510,7 @@
 			)
 		)
 		(pin "+20 V" passive
-			(at 237.49 57.15 0)
+			(at 237.49 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -478,6 +518,16 @@
 				(justify right)
 			)
 			(uuid "a06f34b9-bc34-456a-82be-ff4427bee2e9")
+		)
+		(pin "GND" passive
+			(at 237.49 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4bb979fb-cc48-4adc-8cf1-25021791227d")
 		)
 		(instances
 			(project "AudioInterface"

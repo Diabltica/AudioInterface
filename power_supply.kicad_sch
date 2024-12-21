@@ -1844,6 +1844,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 177.8) (xy 256.54 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aeb5e87-8071-465c-b018-02377b5c3084")
+	)
+	(wire
+		(pts
 			(xy 153.67 185.42) (xy 153.67 184.15)
 		)
 		(stroke
@@ -2044,6 +2054,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 177.8) (xy 256.54 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0aef662-e5e0-4b8a-a885-6914399b5d5c")
+	)
+	(wire
+		(pts
 			(xy 224.79 143.51) (xy 236.22 143.51)
 		)
 		(stroke
@@ -2185,6 +2205,18 @@
 			(justify left)
 		)
 		(uuid "b07b57c5-4d25-44bc-9833-02b334a56606")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 257.81 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea8ab219-1453-4ce7-81e6-7b2634651da3")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2929,6 +2961,72 @@
 			(project ""
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/ae4f2c87-1f41-448f-be09-0b58202da066"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 256.54 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76214844-86bb-43aa-891f-064039f534c9")
+		(property "Reference" "#PWR019"
+			(at 256.54 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 256.54 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 256.54 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1a287d7-0495-4137-aee1-c1de30cff5ef")
+		)
+		(instances
+			(project "AudioInterface"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/ae4f2c87-1f41-448f-be09-0b58202da066"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
