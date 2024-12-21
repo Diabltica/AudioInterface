@@ -1,0 +1,66 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+      - test-workflow
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  Preflight:
+    runs-on: ubuntu-latest
+    container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: "1"
+          submodules: "true"
+      - name: Run Kibot
+        uses: INTI-CMNB/KiBot@v2_dk8
+        with:
+          config: preflight.kibot.yaml
+          dir: output
+          schema: "AudioInterface.kicad_sch"
+          board: "AudioInterface.kicad_pcb"
+          verbose: 3
+      - name: "Setup jq"
+        uses: dcarbone/install-jq-action@v2
+      - name: Parse ERC
+        run: |
+          erc_warnings=$(cat output/AudioInterface-erc.json | jq '[try .violations[] | select(.severity == "warning")] | length')
+          erc_errors=$(cat output/AudioInterface-erc.json | jq '[try .violations[] | select(.severity == "error")] | length')
+          cat <<EOF > output/erc_validation.md
+          ### ERC Report
+          - **Errors**: $erc_errors
+          - **Warnings**: $erc_warnings
+          - **Link**: [HTML Report](AudioInterface-erc.html)
+          EOF
+          cat output/erc_validation.md
+      - name: Parse DRC
+        run: |
+          drc_warnings=$(cat output/AudioInterface-drc.json | jq '[try .violations[] | select(.severity == "warning")] | length')
+          drc_errors=$(cat output/AudioInterface-drc.json | jq '[try .violations[] | select(.severity == "error")] | length')
+          cat <<EOF > output/drc_validation.md
+          ### DRC Report
+          - **Errors**: $drc_errors
+          - **Warnings**: $drc_warnings
+          - **Link**: [HTML Report](AudioInterface-drc.html)
+          EOF
+          cat output/drc_validation.md
+
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: Preflight
+          path: output
