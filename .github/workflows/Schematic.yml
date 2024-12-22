@@ -1,10 +1,9 @@
-name: CI
+name: Schematic
 
 on:
   push:
     branches:
       - main
-      - test-workflow
 
 permissions:
   contents: read

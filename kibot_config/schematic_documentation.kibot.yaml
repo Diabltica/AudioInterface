@@ -8,7 +8,6 @@ output:
     options:
       all_pages: true
       monochrome: false
-      output: "%f-%i%I%v.%x"
       title: "AudioInterface - Schematic"
 
   - name: 'Kiri Light'
