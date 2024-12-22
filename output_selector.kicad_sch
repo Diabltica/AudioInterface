@@ -3249,6 +3249,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 158.75) (xy 140.97 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "185c419c-cb61-44ca-b8bb-6af98f4ce145")
+	)
+	(wire
+		(pts
 			(xy 256.54 107.95) (xy 264.16 107.95)
 		)
 		(stroke
@@ -3577,6 +3587,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 158.75) (xy 128.27 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70f7cb42-a0e0-424b-ae9f-81aa69623410")
+	)
+	(wire
+		(pts
 			(xy 66.04 154.94) (xy 66.04 156.21)
 		)
 		(stroke
@@ -3839,16 +3859,6 @@
 			(type default)
 		)
 		(uuid "b0ccfc7f-41e3-4284-b066-e030705f8abb")
-	)
-	(wire
-		(pts
-			(xy 139.7 158.75) (xy 140.97 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8efdde7-3a4b-4f91-8d53-76485a485740")
 	)
 	(wire
 		(pts
@@ -4191,6 +4201,18 @@
 		)
 		(uuid "4aab7824-007f-4e66-9588-42845d64bec0")
 	)
+	(hierarchical_label "~{AmpSD}"
+		(shape output)
+		(at 128.27 158.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bc29d920-ed3a-4c2e-8518-d7ee1a27294e")
+	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 101.6 119.38 0)
@@ -4403,10 +4425,9 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "22c885e5-9dd2-4ae4-8abc-2f14117eefa5")
 		(property "Reference" "JP1"
-			(at 129.54 154.94 0)
+			(at 129.54 163.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6319,6 +6340,74 @@
 			(project "AudioInterface"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/86fedcf6-4284-4ef9-aa8f-0fb0258e957c"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 133.35 158.75 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "c109d952-95ec-483d-97af-1b889de68ec3")
+		(property "Reference" "JP7"
+			(at 133.35 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 133.35 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 133.35 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 133.35 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bc8f7b42-e1a8-44d4-bde3-95dfe628c19a")
+		)
+		(pin "1"
+			(uuid "b430b40b-6d6c-4dc9-9f85-d8a4b9569f75")
+		)
+		(instances
+			(project "AudioInterface"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/86fedcf6-4284-4ef9-aa8f-0fb0258e957c"
+					(reference "JP7")
 					(unit 1)
 				)
 			)
