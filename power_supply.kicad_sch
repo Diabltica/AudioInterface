@@ -2011,16 +2011,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 180.34) (xy 189.23 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ad896de-8d72-41c1-aea5-30d1dba3c48a")
-	)
-	(wire
-		(pts
 			(xy 215.9 161.29) (xy 219.71 161.29)
 		)
 		(stroke
@@ -2668,6 +2658,16 @@
 			(type default)
 		)
 		(uuid "f8c5b03f-0b75-485a-abb0-721a9494308a")
+	)
+	(wire
+		(pts
+			(xy 189.23 180.34) (xy 189.23 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc608164-07b3-4ae3-bf70-ca1ff9bf8bb5")
 	)
 	(text_box "[${#}] ${TITLE}"
 		(exclude_from_sim no)
