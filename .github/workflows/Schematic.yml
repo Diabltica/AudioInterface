@@ -56,11 +56,11 @@ jobs:
   Documentation:
     runs-on: ubuntu-latest
     container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
+    needs: Preflight
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      
       - name: Run Kibot
         uses: INTI-CMNB/Kibot@v2_dk8
         with: 
@@ -68,13 +68,11 @@ jobs:
           dir: output
           schema: "AudioInterface.kicad_sch"
           verbose: 3
-
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
         with:
           name: Documentation
           path: output
-
       - name: Move artifact files
         run: |
           ls -l

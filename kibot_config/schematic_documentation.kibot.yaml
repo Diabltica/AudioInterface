@@ -11,22 +11,22 @@ output:
       title: "AudioInterface - Schematic"
 
   - name: 'Kiri Light'
-      comment: 'Generates a light version of an interactive web page to browse the schematic and/or PCB differences between git commits.'
-      type: 'kiri'
-      dir: 'KiRiLight'
-      options:
-        keep_generated: true
-        max_commits: 3
-        revision: 'HEAD'
-        zones: 'global'
-      layers: all
+    comment: 'Generates a light version of an interactive web page to browse the schematic and/or PCB differences between git commits.'
+    type: 'kiri'
+    dir: 'KiRiLight'
+    options:
+      keep_generated: true
+      max_commits: 3
+      revision: 'HEAD'
+      zones: 'global'
+    layers: all
 
   - name: ibom
-      comment: Interactive BOM
-      type: ibom
-      dir: IBOM
-      options:
-        dark_mode: true
-        name_format: "index"
-        include_tracks: true
-        show_fields: "Value,Footprint,Datasheet,LCSC"
+    comment: Interactive BOM
+    type: ibom
+    dir: IBOM
+    options:
+      dark_mode: true
+      name_format: "index"
+      include_tracks: true
+      show_fields: "Value,Footprint,Datasheet,LCSC"
