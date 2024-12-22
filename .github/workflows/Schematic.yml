@@ -53,3 +53,44 @@ jobs:
         with:
           name: Preflight
           path: output
+  
+  Documentation:
+    runs-on: ubuntu-latest
+    container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Run Kibot
+        uses: INTI-CMNB/Kibot@v2_dk8
+        with: 
+          config: kibot_config/schematic_documentation.kibot.yaml
+          dir: output
+          schema: "AudioInterface.kicad_sch"
+          verbose: 3
+
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: Documentation
+          path: output
+
+      - name: Move artifact files
+        run: |
+          ls -l
+          ls -l output
+          ls -l output/Report
+          find .
+          mkdir Documents
+          mkdir KiRiLight
+          mv output/drc_validation.md ./
+          mv output/erc_validation.md ./
+          mv output/AudioInterface-drc.html ./
+          mv output/AudioInterface-erc.html ./
+          mv output/Report/IBOM/AudioInterface-ibom.html ./AudioInterface-ibom.html
+          mv output/Report/Schematic/AudioInterface - Schematic.pdf Documents/AudioInterface - Schematic.pdf
+          mv output/Report/KiRiLight ./ || true
+          rm -rf output
+          ls -l
+          ls -l export
