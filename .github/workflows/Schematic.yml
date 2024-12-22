@@ -59,6 +59,8 @@ jobs:
     needs: Preflight
 
     steps:
+      - name: Install sudo package
+        run: apt update && apt install sudo
       - name: Checkout
         uses: actions/checkout@v4
       - name: Get preflight artifact
