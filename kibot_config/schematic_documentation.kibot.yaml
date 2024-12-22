@@ -16,7 +16,6 @@ outputs:
     dir: 'KiRiLight'
     options:
       keep_generated: true
-      max_commits: 3
       revision: 'HEAD'
       zones: 'global'
     layers: all

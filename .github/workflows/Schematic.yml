@@ -91,7 +91,7 @@ jobs:
           mv output/Preflight/AudioInterface-erc.html ./
           mv output/Report/IBOM/AudioInterface-ibom.html ./AudioInterface-ibom.html
           mv output/Report/Schematic/AudioInterface-schematic.pdf Documents/AudioInterface-schematic.pdf
-          mv output/Report/KiRiLight ./ || true
+          mv output/Report/KiRiLight ./KiRiLight
           rm -rf output
           ls -l
       - name: Setup Pages
@@ -105,7 +105,7 @@ jobs:
         run: |
           ls -l
           sudo chown -R $USER:$USER ./_site/
-          cp -r ./KiRiLight ./_site/ || true 
+          cp -r ./KiRiLight/* ./_site/ || true 
           ls -l ./_site/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
