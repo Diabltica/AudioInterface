@@ -91,6 +91,7 @@ jobs:
           mv output/Preflight/AudioInterface-erc.html ./
           mv output/Report/IBOM/AudioInterface-ibom.html ./AudioInterface-ibom.html
           mv output/Report/Schematic/AudioInterface-schematic.pdf Documents/AudioInterface-schematic.pdf
+          ls -l output/KiRiLight
           mv output/Report/KiRiLight ./KiRiLight
           rm -rf output
           ls -l
