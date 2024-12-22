@@ -85,9 +85,9 @@ jobs:
           find .
           mkdir Documents
           mkdir KiRiLight
-          mv output/erc_validation.md ./
-          mv output/AudioInterface-drc.html ./
-          mv output/AudioInterface-erc.html ./
+          mv output/Preflight/erc_validation.md ./
+          mv output/Preflight/AudioInterface-drc.html ./
+          mv output/Preflight/AudioInterface-erc.html ./
           mv output/Report/IBOM/AudioInterface-ibom.html ./AudioInterface-ibom.html
           mv output/Report/Schematic/AudioInterface - Schematic.pdf Documents/AudioInterface - Schematic.pdf
           mv output/Report/KiRiLight ./ || true
