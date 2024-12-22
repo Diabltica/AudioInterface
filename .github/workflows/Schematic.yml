@@ -92,4 +92,3 @@ jobs:
           mv output/Report/KiRiLight ./ || true
           rm -rf output
           ls -l
-          ls -l export
