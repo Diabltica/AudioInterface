@@ -1,7 +1,7 @@
 kibot:
   version: 1
 
-output:
+outputs:
   - name: "pdf_Schematic"
     type: "pdf_sch_print"
     dir: "Schematic"
