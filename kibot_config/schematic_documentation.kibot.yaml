@@ -15,6 +15,7 @@ outputs:
     type: 'kiri'
     dir: 'KiRiLight'
     options:
+      priority: 100
       keep_generated: true
       revision: 'HEAD'
       zones: 'global'

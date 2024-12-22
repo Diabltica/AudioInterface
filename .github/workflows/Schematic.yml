@@ -73,6 +73,7 @@ jobs:
           config: kibot_config/schematic_documentation.kibot.yaml
           dir: output/Report
           schema: "AudioInterface.kicad_sch"
+          board: "AudioInterface.kicad_pcb"
           verbose: 3
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
