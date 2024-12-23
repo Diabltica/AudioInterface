@@ -1094,6 +1094,164 @@
 				)
 			)
 		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:FerriteBead"
 			(pin_numbers hide)
 			(pin_names
@@ -2686,6 +2844,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 49.53) (xy 123.19 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "463ec100-36f9-4c38-bab2-5130b569871a")
+	)
+	(wire
+		(pts
 			(xy 238.76 154.94) (xy 241.3 154.94)
 		)
 		(stroke
@@ -3306,6 +3474,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 50.8) (xy 120.65 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ab15156-6553-432a-9a72-fe46fb779bd9")
+	)
+	(wire
+		(pts
 			(xy 158.75 113.03) (xy 170.18 113.03)
 		)
 		(stroke
@@ -3636,6 +3814,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 195.58) (xy 123.19 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ea2abfa-034a-4478-be51-15c411e66dd2")
+	)
+	(wire
+		(pts
 			(xy 245.11 71.12) (xy 251.46 71.12)
 		)
 		(stroke
@@ -3873,6 +4061,16 @@
 			(type default)
 		)
 		(uuid "acf4ceba-9630-4d4f-bdfe-16f742a75fb4")
+	)
+	(wire
+		(pts
+			(xy 120.65 195.58) (xy 123.19 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b14494c7-66f4-4a72-91f3-d7c30b9098b6")
 	)
 	(wire
 		(pts
@@ -4540,6 +4738,18 @@
 		)
 		(uuid "1a4f75ad-772f-4d3b-a098-0717218133c8")
 	)
+	(hierarchical_label "+20 V"
+		(shape passive)
+		(at 120.65 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "224f0731-5084-43d3-ab46-2f9cb7b226d1")
+	)
 	(hierarchical_label "~{AmpSD}"
 		(shape input)
 		(at 156.21 144.78 180)
@@ -4551,6 +4761,18 @@
 			(justify right)
 		)
 		(uuid "43c0e7d8-15e2-4c52-b80e-1de24b3692ec")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 120.65 195.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9e6b0c2a-018b-4129-ac44-504da0fbce66")
 	)
 	(hierarchical_label "From_Selector_L"
 		(shape input)
@@ -5115,6 +5337,75 @@
 			(project "AudioInterface"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/4ebd39c7-90aa-4c04-a136-f35dff148277"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 226.06 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "203393e0-6c29-4b61-bcbd-660850b221bc")
+		(property "Reference" "C10"
+			(at 226.568 74.168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100µ"
+			(at 226.568 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.0252 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 226.06 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1592f01f-3019-46e8-b7bc-6686f6e13c33")
+		)
+		(pin "1"
+			(uuid "25dec316-3aaa-45ea-a904-69ffbd257296")
+		)
+		(instances
+			(project ""
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/4ebd39c7-90aa-4c04-a136-f35dff148277"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -5751,6 +6042,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 226.06 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f51b7ba-876b-4ab0-be95-a4cfa45fdb10")
+		(property "Reference" "C24"
+			(at 226.568 147.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100µ"
+			(at 226.568 151.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.0252 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 226.06 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "70ab9ac9-3be5-4739-a817-6aa4dc5b6a8e")
+		)
+		(pin "1"
+			(uuid "83806a6d-ae76-4962-ad86-1fb7b10fcb0a")
+		)
+		(instances
+			(project "AudioInterface"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/4ebd39c7-90aa-4c04-a136-f35dff148277"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 232.41 76.2 180)
 		(unit 1)
@@ -6166,76 +6526,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 226.06 149.86 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "779d7924-c346-4482-877a-7ae9021ca1a2")
-		(property "Reference" "C24"
-			(at 229.87 147.828 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100µ"
-			(at 231.394 151.892 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 227.0252 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 226.06 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 226.06 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "52fa1b1f-2936-4d5a-a5a0-8eae6ce08940")
-		)
-		(pin "1"
-			(uuid "c61a0f2b-5622-460b-a00b-4e8a07ecc440")
-		)
-		(instances
-			(project "AudioInterface"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/4ebd39c7-90aa-4c04-a136-f35dff148277"
-					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 271.78 177.8 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6304,35 +6594,103 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 245.11 149.86 0)
-		(mirror x)
+		(lib_id "Device:C_Polarized")
+		(at 245.11 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8470867c-3b86-4528-bbd2-fa5a0d5679da")
-		(property "Reference" "C29"
-			(at 248.92 147.828 0)
+		(uuid "81c1d0d8-0408-4447-af72-ad6bb9a2e25a")
+		(property "Reference" "C13"
+			(at 245.618 74.168 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "100µ"
-			(at 250.444 151.892 0)
+			(at 245.618 78.232 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 246.0752 146.05 0)
+			(at 246.0752 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 245.11 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c1e4ac20-7e29-4395-be65-d5aef38f8b18")
+		)
+		(pin "1"
+			(uuid "535197b6-e0e6-41e7-9c29-14ce1eddc35b")
+		)
+		(instances
+			(project "AudioInterface"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/4ebd39c7-90aa-4c04-a136-f35dff148277"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 245.11 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82e9fa85-efbc-4ca2-a77d-fce7ac7c0e13")
+		(property "Reference" "C29"
+			(at 245.618 147.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100µ"
+			(at 245.618 151.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.0752 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6349,7 +6707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Polarized capacitor"
 			(at 245.11 149.86 0)
 			(effects
 				(font
@@ -6359,10 +6717,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "5d94652a-2823-4c1f-b0cf-7762b78f6c25")
+			(uuid "b88668d4-a2ac-4978-affe-c7cf44c3dc2e")
 		)
 		(pin "1"
-			(uuid "ca4aada1-1444-44e1-b939-4bba74b3905e")
+			(uuid "8e79f5a4-5cad-43fe-b8b6-fa2a1703218a")
 		)
 		(instances
 			(project "AudioInterface"
@@ -6711,76 +7069,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 226.06 76.2 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9150df88-d0d8-4682-b302-d61ebbb429d7")
-		(property "Reference" "C10"
-			(at 229.87 74.168 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100µ"
-			(at 231.394 78.232 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 227.0252 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 226.06 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 226.06 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "85c32308-a994-40f4-aec8-9871ab1a6626")
-		)
-		(pin "1"
-			(uuid "898220e8-819a-4629-88a3-5d07746cc777")
-		)
-		(instances
-			(project "AudioInterface"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/4ebd39c7-90aa-4c04-a136-f35dff148277"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 271.78 104.14 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7053,6 +7341,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 123.19 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a71a5934-f268-4602-b3d4-4085d834447e")
+		(property "Reference" "#PWR037"
+			(at 123.19 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 123.19 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 123.19 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63a0d827-7193-4315-a44b-6c4ec46781b8")
+		)
+		(instances
+			(project "AudioInterface"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/4ebd39c7-90aa-4c04-a136-f35dff148277"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "0 __:RK27112A0A16")
 		(at 128.27 161.29 0)
 		(unit 2)
@@ -7203,76 +7557,6 @@
 			(project "AudioInterface"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/4ebd39c7-90aa-4c04-a136-f35dff148277"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 245.11 76.2 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ac250bae-7ba6-4429-a491-b3bcac6757c5")
-		(property "Reference" "C13"
-			(at 248.92 74.168 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100µ"
-			(at 250.444 78.232 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 246.0752 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 245.11 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 245.11 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "670150bd-3da7-4f14-9e07-ac3900a3ad7d")
-		)
-		(pin "1"
-			(uuid "aa935fce-4e1a-4798-b2c7-d9c9df3d2c34")
-		)
-		(instances
-			(project "AudioInterface"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/4ebd39c7-90aa-4c04-a136-f35dff148277"
-					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -8522,6 +8806,73 @@
 			(project "AudioInterface"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/4ebd39c7-90aa-4c04-a136-f35dff148277"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 123.19 196.85 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ece42a71-cfe3-4c06-9018-5abdd9cc82b3")
+		(property "Reference" "#PWR038"
+			(at 123.19 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 123.19 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ee35795-03b1-40e5-86ea-bd1954c7d28d")
+		)
+		(instances
+			(project "AudioInterface"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/4ebd39c7-90aa-4c04-a136-f35dff148277"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
