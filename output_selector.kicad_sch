@@ -3124,6 +3124,12 @@
 		(uuid "2f0c199e-e1a1-414b-90e1-04747e4493f2")
 	)
 	(junction
+		(at 186.69 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56abd154-2f32-44c0-8cc8-8b70c3e125f4")
+	)
+	(junction
 		(at 218.44 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3246,16 +3252,6 @@
 			(type default)
 		)
 		(uuid "08f65aaf-5b09-4d1d-a9ab-3cd13920ea63")
-	)
-	(wire
-		(pts
-			(xy 137.16 158.75) (xy 140.97 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "185c419c-cb61-44ca-b8bb-6af98f4ce145")
 	)
 	(wire
 		(pts
@@ -3403,6 +3399,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 158.75) (xy 140.97 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e6fc2b2-456d-4d2c-b20a-82955245c418")
+	)
+	(wire
+		(pts
 			(xy 95.25 114.3) (xy 95.25 115.57)
 		)
 		(stroke
@@ -3410,6 +3416,16 @@
 			(type default)
 		)
 		(uuid "405f8c2a-d71d-4809-8354-11e2b790f164")
+	)
+	(wire
+		(pts
+			(xy 189.23 135.89) (xy 186.69 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "462da533-1366-4f22-a158-8e0109b92ba7")
 	)
 	(wire
 		(pts
@@ -3584,16 +3600,6 @@
 			(type default)
 		)
 		(uuid "6e1b4b6e-6986-4364-a881-c31c95852b88")
-	)
-	(wire
-		(pts
-			(xy 129.54 158.75) (xy 128.27 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70f7cb42-a0e0-424b-ae9f-81aa69623410")
 	)
 	(wire
 		(pts
@@ -3862,6 +3868,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 144.78) (xy 186.69 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9e88cfa-8c79-4a9b-91e6-cc4f402c8a4d")
+	)
+	(wire
+		(pts
 			(xy 264.16 125.73) (xy 262.89 125.73)
 		)
 		(stroke
@@ -3934,6 +3950,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 146.05) (xy 203.2 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6570fd8-56e1-4185-b6ea-ae9857eef887")
+	)
+	(wire
+		(pts
 			(xy 166.37 158.75) (xy 175.26 158.75)
 		)
 		(stroke
@@ -3954,7 +3980,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 146.05) (xy 194.31 146.05)
+			(xy 175.26 146.05) (xy 176.53 146.05)
 		)
 		(stroke
 			(width 0)
@@ -3974,7 +4000,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 146.05) (xy 203.2 146.05)
+			(xy 184.15 146.05) (xy 186.69 146.05)
 		)
 		(stroke
 			(width 0)
@@ -4022,6 +4048,16 @@
 			(type default)
 		)
 		(uuid "f1f7e930-bd1c-42b3-9de4-c11288ef4970")
+	)
+	(wire
+		(pts
+			(xy 186.69 135.89) (xy 186.69 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f23baf88-0b0b-4056-b1af-8e5d38f9fa1c")
 	)
 	(wire
 		(pts
@@ -4203,15 +4239,15 @@
 	)
 	(hierarchical_label "~{AmpSD}"
 		(shape output)
-		(at 128.27 158.75 180)
+		(at 189.23 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "bc29d920-ed3a-4c2e-8518-d7ee1a27294e")
+		(uuid "4d792ff0-1bdb-45c5-8ef2-2847c3567286")
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
@@ -5025,6 +5061,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148")
+		(at 186.69 140.97 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "503102b4-7508-4f60-a49a-d0bf17a72543")
+		(property "Reference" "D4"
+			(at 191.516 139.954 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 196.342 142.494 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 186.69 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 186.69 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 186.69 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 186.69 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 186.69 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abb0bb17-d80b-41e5-a1b1-f07101ea9e5b")
+		)
+		(pin "2"
+			(uuid "26c88084-e1d7-4b28-a540-b8795f85a596")
+		)
+		(instances
+			(project "AudioInterface"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/86fedcf6-4284-4ef9-aa8f-0fb0258e957c"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 219.71 152.4 0)
 		(unit 1)
@@ -5291,7 +5414,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 198.12 146.05 0)
+		(at 180.34 146.05 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -5300,7 +5423,7 @@
 		(fields_autoplaced yes)
 		(uuid "78a66b9a-073d-482d-8922-d91e034eaea3")
 		(property "Reference" "JP2"
-			(at 198.12 139.7 0)
+			(at 180.34 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5308,7 +5431,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 198.12 142.24 0)
+			(at 180.34 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5317,7 +5440,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 198.12 146.05 0)
+			(at 180.34 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5326,7 +5449,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 198.12 146.05 0)
+			(at 180.34 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5335,7 +5458,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 198.12 146.05 0)
+			(at 180.34 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6340,74 +6463,6 @@
 			(project "AudioInterface"
 				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/86fedcf6-4284-4ef9-aa8f-0fb0258e957c"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 133.35 158.75 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "c109d952-95ec-483d-97af-1b889de68ec3")
-		(property "Reference" "JP7"
-			(at 133.35 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 133.35 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 133.35 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 133.35 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 133.35 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bc8f7b42-e1a8-44d4-bde3-95dfe628c19a")
-		)
-		(pin "1"
-			(uuid "b430b40b-6d6c-4dc9-9f85-d8a4b9569f75")
-		)
-		(instances
-			(project "AudioInterface"
-				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/86fedcf6-4284-4ef9-aa8f-0fb0258e957c"
-					(reference "JP7")
 					(unit 1)
 				)
 			)
