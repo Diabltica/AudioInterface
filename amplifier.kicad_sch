@@ -4877,7 +4877,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric"
 			(at 260.35 181.102 90)
 			(effects
 				(font
@@ -4906,6 +4906,15 @@
 		)
 		(property "LCSC" "C2661525"
 			(at 260.35 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2661525"
+			(at 260.35 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4955,7 +4964,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 226.06 180.0352 0)
 			(effects
 				(font
@@ -4974,6 +4983,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 229.87 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C77020"
 			(at 229.87 179.07 0)
 			(effects
 				(font
@@ -5025,7 +5043,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 162.56 72.898 90)
 			(effects
 				(font
@@ -5044,6 +5062,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 162.56 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C427241"
 			(at 162.56 71.12 0)
 			(effects
 				(font
@@ -5161,7 +5188,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 179.07 151.892 90)
 			(effects
 				(font
@@ -5180,6 +5207,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 179.07 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C427253"
 			(at 179.07 153.67 0)
 			(effects
 				(font
@@ -5230,7 +5266,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 226.06 93.6752 0)
 			(effects
 				(font
@@ -5249,6 +5285,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 229.87 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C77020"
 			(at 229.87 92.71 0)
 			(effects
 				(font
@@ -5300,7 +5345,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 175.26 160.528 90)
 			(effects
 				(font
@@ -5319,6 +5364,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 175.26 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C427253"
 			(at 175.26 158.75 0)
 			(effects
 				(font
@@ -5369,7 +5423,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 227.0252 80.01 0)
 			(effects
 				(font
@@ -5388,6 +5442,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 226.06 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C178585"
 			(at 226.06 76.2 0)
 			(effects
 				(font
@@ -5504,7 +5567,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 250.4948 72.39 0)
 			(effects
 				(font
@@ -5523,6 +5586,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 251.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C77020"
 			(at 251.46 76.2 0)
 			(effects
 				(font
@@ -5573,7 +5645,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 256.8448 72.39 0)
 			(effects
 				(font
@@ -5592,6 +5664,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 257.81 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C77018"
 			(at 257.81 76.2 0)
 			(effects
 				(font
@@ -5643,7 +5724,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 175.26 86.868 90)
 			(effects
 				(font
@@ -5662,6 +5743,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 175.26 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C427253"
 			(at 175.26 85.09 0)
 			(effects
 				(font
@@ -5712,7 +5802,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 270.8148 91.44 0)
 			(effects
 				(font
@@ -5731,6 +5821,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 271.78 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C77018"
 			(at 271.78 95.25 0)
 			(effects
 				(font
@@ -5779,7 +5878,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric"
 			(at 260.35 165.608 90)
 			(effects
 				(font
@@ -5808,6 +5907,15 @@
 		)
 		(property "LCSC" "C2661525"
 			(at 260.35 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2661525"
+			(at 260.35 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5920,7 +6028,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric"
 			(at 260.35 107.442 90)
 			(effects
 				(font
@@ -5949,6 +6057,15 @@
 		)
 		(property "LCSC" "C2661525"
 			(at 260.35 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2661525"
+			(at 260.35 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5999,7 +6116,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 171.1452 99.06 0)
 			(effects
 				(font
@@ -6018,6 +6135,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 170.18 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1518208"
 			(at 170.18 102.87 0)
 			(effects
 				(font
@@ -6068,7 +6194,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 227.0252 153.67 0)
 			(effects
 				(font
@@ -6087,6 +6213,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 226.06 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C178585"
 			(at 226.06 149.86 0)
 			(effects
 				(font
@@ -6137,7 +6272,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 231.4448 72.39 0)
 			(effects
 				(font
@@ -6156,6 +6291,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 232.41 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C77020"
 			(at 232.41 76.2 0)
 			(effects
 				(font
@@ -6207,7 +6351,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 162.56 146.558 90)
 			(effects
 				(font
@@ -6226,6 +6370,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 162.56 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C427241"
 			(at 162.56 144.78 0)
 			(effects
 				(font
@@ -6277,7 +6430,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 171.1452 172.72 0)
 			(effects
 				(font
@@ -6296,6 +6449,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 170.18 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1518208"
 			(at 170.18 176.53 0)
 			(effects
 				(font
@@ -6412,7 +6574,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 180.0352 99.06 0)
 			(effects
 				(font
@@ -6431,6 +6593,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 179.07 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1518208"
 			(at 179.07 102.87 0)
 			(effects
 				(font
@@ -6482,7 +6653,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 307.34 172.72 0)
 			(effects
 				(font
@@ -6551,7 +6722,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 270.8148 173.99 0)
 			(effects
 				(font
@@ -6570,6 +6741,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 271.78 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C77018"
 			(at 271.78 177.8 0)
 			(effects
 				(font
@@ -6620,7 +6800,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 246.0752 80.01 0)
 			(effects
 				(font
@@ -6639,6 +6819,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 245.11 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C178585"
 			(at 245.11 76.2 0)
 			(effects
 				(font
@@ -6689,7 +6878,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 246.0752 153.67 0)
 			(effects
 				(font
@@ -6708,6 +6897,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 245.11 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C178585"
 			(at 245.11 149.86 0)
 			(effects
 				(font
@@ -6758,7 +6956,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 226.06 167.3352 0)
 			(effects
 				(font
@@ -6777,6 +6975,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 229.87 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C77020"
 			(at 229.87 166.37 0)
 			(effects
 				(font
@@ -6827,7 +7034,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 226.06 106.3752 0)
 			(effects
 				(font
@@ -6846,6 +7053,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 229.87 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C77020"
 			(at 229.87 105.41 0)
 			(effects
 				(font
@@ -6974,6 +7190,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C114457"
+			(at 185.42 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "c556cf48-cd0a-43de-9033-80052face577")
 		)
@@ -7094,7 +7319,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 270.8148 100.33 0)
 			(effects
 				(font
@@ -7113,6 +7338,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 271.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C77018"
 			(at 271.78 104.14 0)
 			(effects
 				(font
@@ -7164,7 +7398,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 180.0352 172.72 0)
 			(effects
 				(font
@@ -7183,6 +7417,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 179.07 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1518208"
 			(at 179.07 176.53 0)
 			(effects
 				(font
@@ -7298,7 +7541,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 160.02 164.7952 0)
 			(effects
 				(font
@@ -7317,6 +7560,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 163.83 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1518208"
 			(at 163.83 163.83 0)
 			(effects
 				(font
@@ -7590,7 +7842,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 160.02 88.5952 0)
 			(effects
 				(font
@@ -7609,6 +7861,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 156.21 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1518208"
 			(at 156.21 87.63 0)
 			(effects
 				(font
@@ -7816,7 +8077,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 179.07 78.232 90)
 			(effects
 				(font
@@ -7835,6 +8096,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 179.07 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C427253"
 			(at 179.07 80.01 0)
 			(effects
 				(font
@@ -7951,7 +8221,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 168.402 77.47 90)
 			(effects
 				(font
@@ -7970,6 +8240,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 170.18 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C854481"
 			(at 170.18 77.47 0)
 			(effects
 				(font
@@ -8020,7 +8299,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 231.4448 146.05 0)
 			(effects
 				(font
@@ -8039,6 +8318,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 232.41 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C77020"
 			(at 232.41 149.86 0)
 			(effects
 				(font
@@ -8090,7 +8378,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 160.02 162.2552 0)
 			(effects
 				(font
@@ -8109,6 +8397,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 156.21 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1518208"
 			(at 156.21 161.29 0)
 			(effects
 				(font
@@ -8237,6 +8534,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C114457"
+			(at 185.42 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "f4dfd170-8151-4a28-835f-9fb911271577")
 		)
@@ -8357,7 +8663,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 237.7948 146.05 0)
 			(effects
 				(font
@@ -8376,6 +8682,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 238.76 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C77018"
 			(at 238.76 149.86 0)
 			(effects
 				(font
@@ -8426,7 +8741,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 250.4948 146.05 0)
 			(effects
 				(font
@@ -8445,6 +8760,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 251.46 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C77020"
 			(at 251.46 149.86 0)
 			(effects
 				(font
@@ -8495,7 +8819,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 256.8448 146.05 0)
 			(effects
 				(font
@@ -8514,6 +8838,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 257.81 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C77018"
 			(at 257.81 149.86 0)
 			(effects
 				(font
@@ -8564,7 +8897,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 270.8148 165.1 0)
 			(effects
 				(font
@@ -8583,6 +8916,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 271.78 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C77018"
 			(at 271.78 168.91 0)
 			(effects
 				(font
@@ -8634,7 +8976,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 168.402 151.13 90)
 			(effects
 				(font
@@ -8653,6 +8995,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 170.18 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C854481"
 			(at 170.18 151.13 0)
 			(effects
 				(font
@@ -8769,7 +9120,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 160.02 91.1352 0)
 			(effects
 				(font
@@ -8788,6 +9139,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 163.83 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1518208"
 			(at 163.83 90.17 0)
 			(effects
 				(font
@@ -8903,7 +9263,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric"
 			(at 260.35 91.948 90)
 			(effects
 				(font
@@ -8932,6 +9292,15 @@
 		)
 		(property "LCSC" "C2661525"
 			(at 260.35 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2661525"
+			(at 260.35 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9114,7 +9483,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 307.34 99.06 0)
 			(effects
 				(font
@@ -9183,7 +9552,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 237.7948 72.39 0)
 			(effects
 				(font
@@ -9202,6 +9571,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 238.76 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C77018"
 			(at 238.76 76.2 0)
 			(effects
 				(font
