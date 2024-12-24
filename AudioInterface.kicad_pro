@@ -487,8 +487,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.55,
-        "via_drill": 0.25,
+        "via_diameter": 0.3,
+        "via_drill": 0.15,
         "wire_width": 6
       },
       {
@@ -504,8 +504,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(0, 0, 0)",
         "track_width": 0.2,
-        "via_diameter": 0.55,
-        "via_drill": 0.25,
+        "via_diameter": 0.3,
+        "via_drill": 0.15,
         "wire_width": 8
       }
     ],
@@ -679,7 +679,7 @@
       "idf": "",
       "netlist": "amulet_controller.net",
       "plot": "",
-      "pos_files": "",
+      "pos_files": "jlcpcb/production_files/",
       "specctra_dsn": "",
       "step": "STEP/amulet_controller.step",
       "svg": "",

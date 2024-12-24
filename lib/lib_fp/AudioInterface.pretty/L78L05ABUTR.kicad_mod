@@ -76,14 +76,24 @@
 		(uuid "794f88af-dad2-461c-b575-7376ce9ace64")
 	)
 	(fp_line
-		(start -1.6 2.87)
-		(end -1.6 2.87)
+		(start -2.032 2.286)
+		(end -2.032 2.286)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "e277523e-365d-4847-b227-095294ed00b5")
+	)
+	(fp_line
+		(start -1.932 2.286)
+		(end -1.932 2.286)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6247e2a0-1991-4114-8aad-ee3c9fab8c71")
 	)
 	(fp_line
 		(start -1.5 -1.222)
@@ -94,16 +104,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "6831ddf5-85a6-45f0-adf2-d907e9f9ba63")
-	)
-	(fp_line
-		(start -1.5 2.87)
-		(end -1.5 2.87)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "6247e2a0-1991-4114-8aad-ee3c9fab8c71")
 	)
 	(fp_line
 		(start 1.5 -1.222)
@@ -126,9 +126,9 @@
 		(uuid "b136ebea-eec9-4df3-a08c-a776ff7fb1fe")
 	)
 	(fp_arc
-		(start -1.6 2.87)
-		(mid -1.55 2.82)
-		(end -1.5 2.87)
+		(start -2.032 2.286)
+		(mid -1.982 2.236)
+		(end -1.932 2.286)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -137,9 +137,9 @@
 		(uuid "8d9c6199-cf6d-4278-b418-944333c715ee")
 	)
 	(fp_arc
-		(start -1.5 2.87)
-		(mid -1.55 2.92)
-		(end -1.6 2.87)
+		(start -1.932 2.286)
+		(mid -1.982 2.336)
+		(end -2.032 2.286)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -148,8 +148,8 @@
 		(uuid "ca86dd1d-14f7-49e0-87fe-a808f1d34646")
 	)
 	(fp_line
-		(start -3.25 -2.905)
-		(end 3.25 -2.905)
+		(start -2.54 -2.032)
+		(end 2.54 -2.032)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -158,8 +158,8 @@
 		(uuid "b4e08122-8fa6-460f-9993-471089f37938")
 	)
 	(fp_line
-		(start -3.25 3.445)
-		(end -3.25 -2.905)
+		(start -2.54 2.667)
+		(end -2.54 -2.032)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -168,8 +168,8 @@
 		(uuid "4bca43c6-4896-4734-a245-b79156057bd2")
 	)
 	(fp_line
-		(start 3.25 -2.905)
-		(end 3.25 3.445)
+		(start 2.54 -2.032)
+		(end 2.54 2.667)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -178,8 +178,8 @@
 		(uuid "92fec6f0-c23f-40e9-b680-3e93b03bedfd")
 	)
 	(fp_line
-		(start 3.25 3.445)
-		(end -3.25 3.445)
+		(start 2.54 2.667)
+		(end -2.54 2.667)
 		(stroke
 			(width 0.1)
 			(type solid)
